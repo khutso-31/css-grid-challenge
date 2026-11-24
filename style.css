@@ -74,24 +74,3 @@ body{
   background: hsl(219, 29%, 14%);
   color: white;
 }
-
-
-@media (min-width: 768px){
-  .container{
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (min-width: 1024px){
-  .container{
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-areas:
-      "daniel daniel john kira"
-      "jeanett patrick patrick kira";
-  }
-  .Daniel{ grid-area: daniel; }
-  .John{ grid-area: john; }
-  .Kira{ grid-area: kira; }
-  .Jeanett{ grid-area: jeanett; }
-  .Patrick{ grid-area: patrick; }
-}
